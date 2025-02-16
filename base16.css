@@ -1,8 +1,9 @@
 /**
-* @name base16
+* @name Default Discord (base16)
 * @author @bypass_
 * @version 0.0.2
-* @description base16 theme for Discord
+* @website https://github.com/imbypass/base16-Discord
+* @description base16 theme for Discord/Vencord
 **/
 
 :root {
@@ -209,9 +210,15 @@ rect[fill^="#80848e"] {
 }
 
 /*--- Codeblock Syntax Highlighting Recolor ---*/
-.hljs-attr,
-.hljs-attribute,
-.hljs-number,
+.hljs-attr {
+    color: var(--base06) !important;
+}
+.hljs-attribute {
+    color: var(--base06) !important;
+}
+.hljs-number {
+    color: var(--base06) !important;
+}
 .hljs-selector-class {
     color: var(--base06) !important;
 }
@@ -221,11 +228,15 @@ rect[fill^="#80848e"] {
 .hljs-subst {
     color: var(--base0D) !important;
 }
-.hljs-selector-pseudo,
+.hljs-selector-pseudo {
+    color: var(--base0B) !important;
+}
 .hljs-section {
     color: var(--base0B) !important;
 }
-.hljs-keyword,
+.hljs-keyword {
+    color: var(--base08) !important;
+}
 .hljs-variable {
     color: var(--base08) !important;
 }
