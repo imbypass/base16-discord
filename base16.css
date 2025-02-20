@@ -1,7 +1,7 @@
 /**
 * @name Default Discord (base16)
 * @author @bypass_
-* @version 0.0.2
+* @version 0.0.4
 * @website https://github.com/imbypass/base16-Discord
 * @description base16 theme for Discord/Vencord
 **/
@@ -128,8 +128,9 @@
     --yellow-360: var(--base0A);
 }
 
+/*--- Voice Bar Text Recolor ---*/
 .barText__7aaec {
-    color: var(--base05) !important;
+    color: var(--base04) !important;
 }
 
 /*--- Forum Background Recolor ---*/
