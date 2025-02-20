@@ -120,11 +120,16 @@
     --text-positive: var(--base0B);
     --text-secondary: var(--base03);
     --text-warning: var(--base0A);
+    --textbox-markdown-syntax: var(--base05);
     --white-100: var(--base05);
     --white-200: var(--base05);
     --white-500: var(--base05);
     --white: var(--base05);
     --yellow-360: var(--base0A);
+}
+
+.barText__7aaec {
+    color: var(--base05) !important;
 }
 
 /*--- Forum Background Recolor ---*/
