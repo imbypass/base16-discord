@@ -187,6 +187,7 @@ rect[fill^="#f0b232"] {
     fill: var(--status-warning) !important;
 }
 /*--- Status Icon Recolor (ONLINE) ---*/
+path[fill^="#23a55a"],
 svg[fill^="#23a55a"],
 rect[fill^="#23a55a"] {
     fill: var(--status-positive) !important;
