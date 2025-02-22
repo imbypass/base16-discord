@@ -108,11 +108,11 @@
     --status-danger: var(--base08);
     --status-negative: var(--base08);
     --status-positive-background: var(--base0B);
-    --status-positive-text: var(--base05);
+    --status-positive-text: var(--base0B);
     --status-positive: var(--base0B);
     --status-success: var(--base0B);
     --status-warning-background: var(--base03);
-    --status-warning: var(--base0A);
+    --status-warning: var(--base09);
     --text-brand: var(--base07);
     --text-link: var(--base04);
     --text-muted: var(--base03);
@@ -120,7 +120,7 @@
     --text-normal: var(--base05);
     --text-positive: var(--base0B);
     --text-secondary: var(--base03);
-    --text-warning: var(--base0A);
+    --text-warning: var(--base09);
     --textbox-markdown-syntax: var(--base05);
     --white-100: var(--base05);
     --white-200: var(--base05);
