@@ -59,6 +59,7 @@
     --button-outline-danger-background-hover: var(--base08);
     --button-outline-danger-border-hover: var(--base08);
     --button-positive-background: var(--base0B);
+    --button-positive-background-hover: var(--base03);
     --button-secondary-background: var(--base02);
     --card-primary-bg: var(--base02);
     --channel-icon: var(--base04);
