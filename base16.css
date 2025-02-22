@@ -35,6 +35,7 @@
     --background-message-highlight: var(--base01);
     --background-message-hover: var(--base00);
     --background-modifier-accent: var(--base02);
+    --background-modifier-active: var(--base02);
     --background-modifier-hover: var(--base00);
     --background-modifier-selected: var(--base00);
     --background-primary: var(--base00);
@@ -130,6 +131,10 @@
     --yellow-300: var(--base0A);
 }
 
+.card__73069 {
+    background-color: var(--base01);
+}
+
 /*--- Voice Bar Text Recolor ---*/
 .barText__7aaec {
     color: var(--base04) !important;
@@ -175,7 +180,7 @@ path[fill^="rgba(35, 165, 90, 1)"] {
 
 /* --- Secure Lock Icon Recolor --- */
 .lockIcon__2666b {
-    filter: grayscale(100%);
+    display: none;
 }
 
 /*--- Status Icon Recolor (DO NOT DISTURB) ---*/
@@ -217,6 +222,14 @@ svg.guildBoostBadge__5dba5 path {
 }
 .gradientContainer_bfe55a {
     background-image: var(--base00);
+}
+
+/*--- Store Gradient Recolors ---*/
+.gradient_e9ef78 {
+    background: var(--base01) !important;
+}
+.bannerGradient__955a3 {
+    background: var(--base00) !important;
 }
 
 /*--- Increase Text Legibility ---*/
