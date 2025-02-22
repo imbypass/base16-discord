@@ -127,6 +127,7 @@
     --white-500: var(--base05);
     --white: var(--base05);
     --yellow-360: var(--base0A);
+    --yellow-300: var(--base0A);
 }
 
 /*--- Voice Bar Text Recolor ---*/
@@ -197,6 +198,12 @@ rect[fill^="#23a55a"] {
 svg[fill^="#80848e"],
 rect[fill^="#80848e"] {
     fill: var(--base03) !important;
+}
+
+/*--- Nitro Icon Recolor ---*/
+.premiumLabel_e681d1 svg path,
+svg.guildBoostBadge__5dba5 path {
+    fill: var(--base0E) !important;
 }
 
 /*--- Server Booster Icon Recolor ---*/
