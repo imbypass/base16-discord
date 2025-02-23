@@ -68,6 +68,7 @@
     --channeltextarea-background: var(--base01);
     --control-brand-foreground-new: var(--base0D);
     --control-brand-foreground: var(--base04);
+    --custom-notice-text: var(--base01) !important;
     --font-display: var(--font, "gg sans");
     --font-headline: var(--font, "gg sans");
     --font-primary: var(--font, "gg sans");
@@ -131,6 +132,19 @@
     --yellow-300: var(--base0A);
 }
 
+/*--- Voice Reconnect Text Recolor ---*/
+.addFriend__133bf.addFriend__133bf.addFriend__133bf {
+    color: var(--base00) !important;
+}
+.notice__6e2b9 {
+    color: var(--base00) !important;
+}
+.notice__6e2b9 .button__6e2b9 {
+    color: var(--base00) !important;
+    border: 1px solid var(--base00) !important;
+}
+
+/*--- Activity Card Background Recolor ---*/
 .card__73069 {
     background-color: var(--base01);
 }
