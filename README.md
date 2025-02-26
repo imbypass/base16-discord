@@ -2,6 +2,10 @@
 A lightweight recoloring of the default [Discord](https://discord.com/) theme to use [base16](https://github.com/tinted-theming/schemes/tree/spec-0.11/base16) color schemes.
 
 
+## Preview:
+![base16-discord (Tokyo Night)](https://0x0.st/8AgE.png)
+
+
 ### Installation (QuickCSS Import):
 1. Install a client mod for Discord, such as [Vencord](https://vencord.dev/) or [Legcord](https://legcord.app/).
 2. Paste the following snippet into your client mod's QuickCSS:
@@ -43,6 +47,3 @@ You can use modify these variables inside your QuickCSS to customize the theme's
     --base0F: #D4ACA7;
 }
 ```
-
-## Preview:
-![base16-discord (Tokyo Night)](https://0x0.st/8AgE.png)
