@@ -10,14 +10,14 @@ A lightweight recoloring of the default [Discord](https://discord.com/) theme to
 1. Install a client mod for Discord, such as [Vencord](https://vencord.dev/) or [Legcord](https://legcord.app/).
 2. Paste the following snippet into your client mod's QuickCSS:
 ```css
-@import url('https://imbypass.pw/base16-discord');
+@import url('https://raw.githubusercontent.com/imbypass/base16-discord/refs/heads/main/base16.css');
 ```
 
 
 ### Installation (Local):
 1. Install a client mod for Discord, such as [Vencord](https://vencord.dev/) or [Legcord](https://legcord.app/).
 2. Download the [base16-discord](https://github.com/imbypass/base16-discord) theme for your client mod.
-3. Place the downloaded theme to your client mod's theme directory. (e.g., `~/.config/Vencord/themes/base16-discord`)
+3. Place the downloaded theme to your client mod's theme directory. (e.g., `~/.config/Vencord/themes/base16.css`)
 4. Refresh your theme list (if applicable) and enable the theme in your settings.
 
 ### Customizing:
