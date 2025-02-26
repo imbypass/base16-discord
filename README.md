@@ -1,5 +1,5 @@
 # base16-discord
-A recoloring of the default [Discord](https://discord.com/) theme to use [base16](https://github.com/tinted-theming/schemes/tree/spec-0.11/base16) color schemes.
+A lightweight recoloring of the default [Discord](https://discord.com/) theme to use [base16](https://github.com/tinted-theming/schemes/tree/spec-0.11/base16) color schemes.
 
 
 ### Installation (QuickCSS Import):
