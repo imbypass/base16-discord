@@ -144,6 +144,12 @@
     border: 1px solid var(--base00) !important;
 }
 
+/*--- Listen Along Invite Recolor ---*/
+.invite__4d3fa {
+    background: var(--base01) !important;
+    border-color: var(--base02) !important;
+}
+
 /*--- Activity Card Background Recolor ---*/
 .card__73069 {
     background-color: var(--base01);
