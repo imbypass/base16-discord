@@ -1,0 +1,302 @@
+/**
+* @name Default Discord (base16)
+* @author @bypass_
+* @version 0.0.6
+* @website https://github.com/imbypass/base16-Discord
+* @description base16 theme for Discord/Vencord
+**/
+
+:root {
+    --base00: #191724;
+    --base01: #1f1d2e;
+    --base02: #26233a;
+    --base03: #6e6a86;
+    --base04: #908caa;
+    --base05: #e0def4;
+    --base06: #e0def4;
+    --base07: #524f67;
+    --base08: #eb6f92;
+    --base09: #f6c177;
+    --base0A: #ebbcba;
+    --base0B: #31748f;
+    --base0C: #9ccfd8;
+    --base0D: #c4a7e7;
+    --base0E: #f6c177;
+    --base0F: #524f67;
+}
+
+.theme-light,
+.theme-dark {
+    --activity-card-background: var(--base01);
+    --background-accent: var(--base03);
+    --background-floating: var(--base01);
+    --background-mentioned-hover: var(--base02);
+    --background-mentioned: var(--base01);
+    --background-message-highlight: var(--base01);
+    --background-message-hover: var(--base00);
+    --background-modifier-accent: var(--base02);
+    --background-modifier-active: var(--base02);
+    --background-modifier-hover: var(--base00);
+    --background-modifier-selected: var(--base00);
+    --background-primary: var(--base00);
+    --background-secondary-alt: var(--base01);
+    --background-secondary: var(--base01);
+    --background-tertiary: var(--base00);
+    --bg-brand: var(--base03);
+    --bg-mod-faint: var(--base02);
+    --bg-overlay-2: var(--base00);
+    --bg-overlay-3: var(--base01);
+    --brand-10a: var(--base01);
+    --brand-15a: var(--base01);
+    --brand-260: var(--base0D);
+    --brand-500: var(--base03);
+    --brand-560: var(--base01);
+    --button-danger-background: var(--base08);
+    --button-filled-brand-background: var(--base0D);
+    --button-filled-brand-background-hover: var(--base03);
+    --button-filled-brand-text: var(--base00);
+    --button-filled-brand-text-hover: var(--base05);
+    --button-outline-positive-border: var(--base0B);
+    --button-outline-danger-background-hover: var(--base08);
+    --button-outline-danger-border-hover: var(--base08);
+    --button-positive-background: var(--base0B);
+    --button-positive-background-hover: var(--base03);
+    --button-secondary-background: var(--base02);
+    --card-primary-bg: var(--base02);
+    --channel-icon: var(--base04);
+    --channels-default: var(--base04);
+    --channeltextarea-background: var(--base01);
+    --control-brand-foreground-new: var(--base0D);
+    --control-brand-foreground: var(--base04);
+    --custom-notice-text: var(--base01) !important;
+    --font-display: var(--font, "gg sans");
+    --font-headline: var(--font, "gg sans");
+    --font-primary: var(--font, "gg sans");
+    --green-330: var(--base0B);
+    --green-360: var(--base0B);
+    --header-primary: var(--base04);
+    --header-secondary: var(--base03);
+    --home-background: var(--base00);
+    --info-warning-foreground: var(--base0A);
+    --input-background: var(--base01);
+    --interactive-active: var(--base05);
+    --interactive-hover: var(--base05);
+    --interactive-muted: var(--base03);
+    --interactive-normal: var(--base05);
+    --mention-background: var(--base03);
+    --mention-foreground: var(--base05);
+    --menu-item-danger-active-bg: var(--base08);
+    --menu-item-danger-hover-bg: var(--base08);
+    --menu-item-default-hover-bg: var(--base02);
+    --modal-background: var(--base01);
+    --primary-130: var(--base05);
+    --primary-300: var(--base05);
+    --primary-500: var(--base02);
+    --primary-600: var(--base00);
+    --primary-630: var(--base01);
+    --primary-660: var(--base00);
+    --primary-800: var(--base00);
+    --red-400: var(--base08);
+    --red-460: var(--base08);
+    --red-500: var(--base08);
+    --red-630: var(--base08);
+    --red: var(--base08);
+    --scrollbar-auto-thumb: var(--base00);
+    --scrollbar-auto-track: transparent;
+    --scrollbar-thin-thumb: var(--base00);
+    --scrollbar-thin-track: transparent;
+    --search-popout-option-fade: none;
+    --status-danger-background: var(--base08);
+    --status-danger: var(--base08);
+    --status-negative: var(--base08);
+    --status-positive-background: var(--base0B);
+    --status-positive-text: var(--base0B);
+    --status-positive: var(--base0B);
+    --status-success: var(--base0B);
+    --status-warning-background: var(--base03);
+    --status-warning: var(--base09);
+    --text-brand: var(--base07);
+    --text-link: var(--base04);
+    --text-muted: var(--base03);
+    --text-negative: var(--base08);
+    --text-normal: var(--base05);
+    --text-positive: var(--base0B);
+    --text-secondary: var(--base03);
+    --text-warning: var(--base09);
+    --textbox-markdown-syntax: var(--base05);
+    --white-100: var(--base05);
+    --white-200: var(--base05);
+    --white-500: var(--base05);
+    --white: var(--base05);
+    --yellow-360: var(--base0A);
+    --yellow-300: var(--base0A);
+}
+
+/*--- Voice Reconnect Text Recolor ---*/
+.addFriend__133bf.addFriend__133bf.addFriend__133bf {
+    color: var(--base00) !important;
+}
+.notice__6e2b9 {
+    color: var(--base00) !important;
+}
+.notice__6e2b9 .button__6e2b9 {
+    color: var(--base00) !important;
+    border: 1px solid var(--base00) !important;
+}
+
+/*--- Listen Along Invite Recolor ---*/
+.invite__4d3fa {
+    background: var(--base01) !important;
+    border-color: var(--base02) !important;
+}
+
+/*--- Activity Card Background Recolor ---*/
+.card__73069 {
+    background-color: var(--base01);
+}
+
+/*--- Voice Bar Text Recolor ---*/
+.barText__7aaec {
+    color: var(--base04) !important;
+}
+
+/*--- Forum Background Recolor ---*/
+.container_f369db {
+    background-color: var(--bg-overlay-2);
+}
+
+/*--- Sidebar Icon Recolor ---*/
+.circleIconButton__5bc7e {
+    color: var(--base04);
+}
+
+/*--- Summaries Tag Icon Recolor ---*/
+.summariesBetaTag_cf58b5 {
+    color: var(--base03);
+}
+
+/*--- Folder Icon Recolor ---*/
+div.folderIconWrapper__48112 {
+    background-color: var(--base01) !important;
+}
+
+/*--- Voice Chat Action Icon Recolor ---*/
+div[class^="actionButtons"] [class^="button"][class*="buttonColor_"],
+div[class^="actionButtons"] [class^="button"] [class*="buttonColor_"] {
+    background-color: var(--base02);
+}
+
+/* --- Checkbox Recolor (OFF) --- */
+.container__87bf1 {
+    background-color: var(--base03) !important;
+}
+/* --- Checkbox Recolor (ON) --- */
+.checked__87bf1 {
+    background-color: var(--base0B) !important;
+}
+path[fill^="rgba(35, 165, 90, 1)"] {
+    fill: var(--base0B) !important;
+}
+
+/* --- Secure Lock Icon Recolor --- */
+.lockIcon__2666b {
+    display: none;
+}
+
+/*--- Status Icon Recolor (DO NOT DISTURB) ---*/
+svg[fill^="#f23f43"],
+rect[fill^="#f23f43"] {
+    fill: var(--status-danger) !important;
+}
+/*--- Status Icon Recolor (IDLE) ---*/
+svg[fill^="#f0b232"],
+rect[fill^="#f0b232"] {
+    fill: var(--status-warning) !important;
+}
+/*--- Status Icon Recolor (ONLINE) ---*/
+path[fill^="#23a55a"],
+svg[fill^="#23a55a"],
+rect[fill^="#23a55a"] {
+    fill: var(--status-positive) !important;
+}
+/*--- Status Icon Recolor (OFFLINE) ---*/
+svg[fill^="#80848e"],
+rect[fill^="#80848e"] {
+    fill: var(--base03) !important;
+}
+
+/*--- Nitro Icon Recolor ---*/
+.premiumLabel_e681d1 svg path,
+svg.guildBoostBadge__5dba5 path {
+    fill: var(--base0E) !important;
+}
+
+/*--- Server Booster Icon Recolor ---*/
+.premiumIcon__5d473 {
+    color: var(--base0F);
+}
+
+/*--- Call Container Recolor ---*/
+.callContainer_cb9592 {
+    background-color: var(--base00);
+}
+.gradientContainer_bfe55a {
+    background-image: var(--base00);
+}
+
+/*--- Store Gradient Recolors ---*/
+.gradient_e9ef78 {
+    background: var(--base01) !important;
+}
+.bannerGradient__955a3 {
+    background: var(--base00) !important;
+}
+
+/*--- Increase Text Legibility ---*/
+* {
+    text-rendering: optimizeLegibility !important;
+}
+
+/*--- Codeblock Syntax Highlighting Recolor ---*/
+.hljs-attr {
+    color: var(--base06) !important;
+}
+.hljs-attribute {
+    color: var(--base06) !important;
+}
+.hljs-number {
+    color: var(--base06) !important;
+}
+.hljs-selector-class {
+    color: var(--base06) !important;
+}
+.hljs-comment {
+    color: var(--base03) !important;
+}
+.hljs-subst {
+    color: var(--base0D) !important;
+}
+.hljs-selector-pseudo {
+    color: var(--base0B) !important;
+}
+.hljs-section {
+    color: var(--base0B) !important;
+}
+.hljs-keyword {
+    color: var(--base08) !important;
+}
+.hljs-variable {
+    color: var(--base08) !important;
+}
+.hljs-meta {
+    color: var(--base03) !important;
+}
+.hljs-built_in {
+    color: var(--base09) !important;
+}
+.hljs-string {
+    color: var(--base0B) !important;
+}
+.hljs-title {
+    color: var(--base0E) !important;
+}
