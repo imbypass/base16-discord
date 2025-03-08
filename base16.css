@@ -29,7 +29,7 @@
 .theme-dark {
     --activity-card-background: var(--base01);
     --background-accent: var(--base03);
-    --background-floating: var(--base02);
+    --background-floating: var(--base01);
     --background-mentioned-hover: var(--base02);
     --background-mentioned: var(--base01);
     --background-message-highlight: var(--base01);
@@ -157,10 +157,10 @@
 
 /*--- Voice Bar Text Recolor ---*/
 .barText__7aaec {
-    color: var(--base0D) !important;
+    color: var(--base08) !important;
 }
 .unreadIcon__7aaec {
-    color: var(--base0D) !important;
+    color: var(--base08) !important;
 }
 
 /*--- Forum Background Recolor ---*/
