@@ -49,7 +49,7 @@
     --brand-10a: var(--base01);
     --brand-15a: var(--base01);
     --brand-260: var(--base0D);
-    --brand-500: var(--base03);
+    --brand-500: var(--base0D);
     --brand-560: var(--base01);
     --button-danger-background: var(--base08);
     --button-filled-brand-background: var(--base0D);
@@ -115,6 +115,7 @@
     --status-success: var(--base0B);
     --status-warning-background: var(--base03);
     --status-warning: var(--base09);
+    --teal-430: var(--base0C);
     --text-brand: var(--base07);
     --text-link: var(--base04);
     --text-muted: var(--base03);
