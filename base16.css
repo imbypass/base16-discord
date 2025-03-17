@@ -164,6 +164,11 @@
     color: var(--base0B) !important;
 }
 
+/*--- Mentions Bar Text Recolor ---*/
+.mentionsBar__7aaec .barText__7aaec {
+    color: var(--base05) !important;
+}
+
 /*--- Forum Background Recolor ---*/
 .container_f369db {
     background-color: var(--bg-overlay-2);
