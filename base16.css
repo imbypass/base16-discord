@@ -235,6 +235,13 @@ rect[fill^="#80848e"] {
     fill: var(--base03) !important;
 }
 
+/*--- Default Color Swap ---*/
+path[fill^="currentColor"],
+svg[fill^="currentColor"],
+rect[fill^="currentColor"] {
+    fill: var(--base07) !important;
+}
+
 /*--- Nitro Icon Recolor ---*/
 .premiumLabel_e681d1 svg path,
 svg.guildBoostBadge__5dba5 path {
