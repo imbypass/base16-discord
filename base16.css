@@ -147,34 +147,6 @@
     --yellow-300: var(--base0A) !important;
 }
 
-/*--- Visual Refresh Recolor ---*/
-/*--- BIG WORK IN PROGRESS. DISCORD MADE SOME BIG CHANGES. ---*/
-.visual-refresh {
-    .bg__960e4 {
-        background: var(--base00) !important;
-    }
-    .wrapper_ef3116 {
-        background-color: var(--base00) !important;
-    }
-    .sidebar_c48ade {
-        background-color: var(--base00) !important;
-    }
-    .searchBar__97492 {
-        background-color: var(--base02) !important;
-    }
-    .members_c8ffbb,
-    .member_c8ffbb {
-        background: var(--base00) !important;
-    }
-    .voiceBar__7aaec {
-        background-color: var(--base02) !important;
-    }
-    button.button__67645.redGlow__67645,
-    span.button__67645.redGlow__67645 {
-        background-color: var(--base02) !important;
-    }
-}
-
 /*--- Voice Reconnect Text Recolor ---*/
 .addFriend__133bf.addFriend__133bf.addFriend__133bf {
     color: var(--base00) !important;
@@ -357,4 +329,54 @@ svg.guildBoostBadge__5dba5 path {
 }
 .hljs-title {
     color: var(--base0E) !important;
+}
+
+/*--- Visual Refresh Recolor ---*/
+/*--- BIG WORK IN PROGRESS. DISCORD MADE SOME BIG CHANGES. ---*/
+.visual-refresh {
+    .bg__960e4 {
+        background: var(--base00) !important;
+    }
+    .wrapper_ef3116 {
+        background-color: var(--base00) !important;
+    }
+    .sidebar_c48ade {
+        background-color: var(--base00) !important;
+    }
+    .searchBar__97492 {
+        background-color: var(--base02) !important;
+    }
+    .members_c8ffbb,
+    .member_c8ffbb {
+        background: var(--base00) !important;
+    }
+    .voiceBar__7aaec {
+        background-color: var(--base02) !important;
+    }
+    button.button__67645.redGlow__67645,
+    span.button__67645.redGlow__67645 {
+        background-color: var(--base02) !important;
+    }
+
+    /*--- Status Icon Recolor (DO NOT DISTURB) ---*/
+    svg[fill^="#d83a42"],
+    rect[fill^="#d83a42"] {
+        fill: var(--status-danger) !important;
+    }
+    /*--- Status Icon Recolor (IDLE) ---*/
+    svg[fill^="#ca9654"],
+    rect[fill^="#ca9654"] {
+        fill: var(--status-warning) !important;
+    }
+    /*--- Status Icon Recolor (ONLINE) ---*/
+    path[fill^="#43a25a"],
+    svg[fill^="#43a25a"],
+    rect[fill^="#43a25a"] {
+        fill: var(--status-positive) !important;
+    }
+    /*--- Status Icon Recolor (OFFLINE) ---*/
+    svg[fill^="#83838b"],
+    rect[fill^="#83838b"] {
+        fill: var(--base03) !important;
+    }
 }
