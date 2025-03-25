@@ -91,7 +91,7 @@
     --header-secondary: var(--base03) !important;
     --home-background: var(--base00) !important;
     --info-warning-foreground: var(--base0A) !important;
-    --input-background: var(--base01) !important;
+    --input-background: var(--base02) !important;
     --interactive-active: var(--base05) !important;
     --interactive-hover: var(--base05) !important;
     --interactive-muted: var(--base03) !important;
@@ -149,25 +149,30 @@
 
 /*--- Visual Refresh Recolor ---*/
 /*--- BIG WORK IN PROGRESS. DISCORD MADE SOME BIG CHANGES. ---*/
-.visual-refresh .bg__960e4 {
-    background: var(--base00) !important;
-}
-.visual-refresh .wrapper_ef3116 {
-    background-color: var(--base00) !important;
-}
-.visual-refresh .sidebar_c48ade {
-    background-color: var(--base00) !important;
-}
-.visual-refresh .members_c8ffbb,
-.visual-refresh .member_c8ffbb {
-    background: var(--base00) !important;
-}
-.visual-refresh .voiceBar__7aaec {
-    background-color: var(--base02) !important;
-}
-button.button__67645.redGlow__67645,
-span.button__67645.redGlow__67645 {
-    background-color: var(--base02) !important;
+.visual-refresh {
+    .bg__960e4 {
+        background: var(--base00) !important;
+    }
+    .wrapper_ef3116 {
+        background-color: var(--base00) !important;
+    }
+    .sidebar_c48ade {
+        background-color: var(--base00) !important;
+    }
+    .searchBar__97492 {
+        background-color: var(--base02) !important;
+    }
+    .members_c8ffbb,
+    .member_c8ffbb {
+        background: var(--base00) !important;
+    }
+    .voiceBar__7aaec {
+        background-color: var(--base02) !important;
+    }
+    button.button__67645.redGlow__67645,
+    span.button__67645.redGlow__67645 {
+        background-color: var(--base02) !important;
+    }
 }
 
 /*--- Voice Reconnect Text Recolor ---*/
