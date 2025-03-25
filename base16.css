@@ -346,6 +346,9 @@ svg.guildBoostBadge__5dba5 path {
     .searchBar__97492 {
         background-color: var(--base02) !important;
     }
+    .channelTextArea_f75fb0 {
+        background: var(--base02) !important;
+    }
     .chatContent_f75fb0 {
         background-color: var(--base01) !important;
     }
