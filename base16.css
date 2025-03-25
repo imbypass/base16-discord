@@ -158,6 +158,9 @@
 .visual-refresh .sidebar_c48ade {
     background-color: var(--base00) !important;
 }
+.visual-refresh .members_c8ffbb {
+    background: var(--base00) !important;
+}
 .visual-refresh .voiceBar__7aaec {
     background-color: var(--base02) !important;
 }
