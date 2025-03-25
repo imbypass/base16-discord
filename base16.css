@@ -78,7 +78,7 @@
     --channel-icon: var(--base04) !important;
     --channels-default: var(--base04) !important;
     --channeltextarea-background: var(--base01) !important;
-    --chat-background-default: var(--base01) !important;
+    --chat-background-default: var(--base02) !important;
     --control-brand-foreground-new: var(--base0D) !important;
     --control-brand-foreground: var(--base04) !important;
     --custom-notice-text: var(--base01) !important;
@@ -345,6 +345,9 @@ svg.guildBoostBadge__5dba5 path {
     }
     .searchBar__97492 {
         background-color: var(--base02) !important;
+    }
+    .chatContent_f75fb0 {
+        background-color: var(--base01) !important;
     }
     .members_c8ffbb,
     .member_c8ffbb {
