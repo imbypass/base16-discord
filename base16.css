@@ -102,6 +102,7 @@
     --menu-item-danger-hover-bg: var(--base08) !important;
     --menu-item-default-hover-bg: var(--base03) !important;
     --modal-background: var(--base01) !important;
+    --modal-footer-background: var(--base00) !important;
     --primary-130: var(--base05) !important;
     --primary-300: var(--base05) !important;
     --primary-500: var(--base02) !important;
@@ -145,6 +146,11 @@
     --white: var(--base05) !important;
     --yellow-360: var(--base0A) !important;
     --yellow-300: var(--base0A) !important;
+}
+
+/*--- Default Folder Color Recolor ---*/
+.default__459fb {
+    background-color: var(--base07) !important;
 }
 
 /*--- Voice Reconnect Text Recolor ---*/
