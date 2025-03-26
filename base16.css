@@ -52,17 +52,19 @@
     --background-base-lower: var(--base00) !important;
     --background-base-lowest: var(--base00) !important;
     --background-base-tertiary: var(--base00) !important;
+    --background-code: var(--base02) !important;
     --bg-base-tertiary: var(--base00) !important;
     --bg-brand: var(--base03) !important;
     --bg-mod-faint: var(--base01) !important;
     --bg-overlay-2: var(--base01) !important;
     --bg-overlay-3: var(--base01) !important;
+    --blurple-50: var(--base03) !important;
     --border-faint: var(--base02) !important;
     --brand-05a: var(--base01) !important;
     --brand-10a: var(--base01) !important;
     --brand-15a: var(--base01) !important;
     --brand-260: var(--base0D) !important;
-    --brand-500: var(--base0D) !important;
+    --brand-500: var(--base0F) !important;
     --brand-560: var(--base01) !important;
     --button-danger-background: var(--base08) !important;
     --button-filled-brand-background: var(--base0D) !important;
@@ -106,6 +108,7 @@
     --menu-item-danger-active-bg: var(--base08) !important;
     --menu-item-danger-hover-bg: var(--base08) !important;
     --menu-item-default-hover-bg: var(--base03) !important;
+    --message-reacted-background: var(--base02) !important;
     --modal-background: var(--base01) !important;
     --modal-footer-background: var(--base00) !important;
     --primary-130: var(--base05) !important;
