@@ -79,6 +79,10 @@
     --channels-default: var(--base04) !important;
     --channeltextarea-background: var(--base01) !important;
     --chat-background-default: var(--base02) !important;
+    --checkbox-background-checked: var(--base0D) !important;
+    --checkbox-border-checked: var(--base0D) !important;
+    --checkbox-background-default: var(--base02) !important;
+    --checkbox-border-default: var(--base03) !important;
     --control-brand-foreground-new: var(--base0D) !important;
     --control-brand-foreground: var(--base04) !important;
     --custom-notice-text: var(--base01) !important;
