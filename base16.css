@@ -348,6 +348,9 @@ svg.guildBoostBadge__5dba5 path {
 /*--- Visual Refresh Recolor ---*/
 /*--- BIG WORK IN PROGRESS. DISCORD MADE SOME BIG CHANGES. ---*/
 .visual-refresh {
+    div[class^="topicsPillContainer"] {
+        --bg-overlay-2: var(--base02) !important;
+    }
     .bg__960e4 {
         background: var(--base00) !important;
     }
