@@ -52,6 +52,7 @@
     --background-base-lower: var(--base00) !important;
     --background-base-lowest: var(--base00) !important;
     --background-base-tertiary: var(--base00) !important;
+    --bg-base-tertiary: var(--base00) !important;
     --bg-brand: var(--base03) !important;
     --bg-mod-faint: var(--base01) !important;
     --bg-overlay-2: var(--base01) !important;
@@ -348,6 +349,9 @@ svg.guildBoostBadge__5dba5 path {
 /*--- Visual Refresh Recolor ---*/
 /*--- BIG WORK IN PROGRESS. DISCORD MADE SOME BIG CHANGES. ---*/
 .visual-refresh {
+    path[fill^="rgba(88, 101, 242, 1)"] {
+        fill: var(--base0B) !important;
+    }
     div[class^="topicsPillContainer"] {
         --bg-overlay-2: var(--base02) !important;
     }
