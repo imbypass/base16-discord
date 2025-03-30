@@ -59,7 +59,9 @@
     --bg-mod-faint: var(--base01) !important;
     --bg-overlay-2: var(--base01) !important;
     --bg-overlay-3: var(--base01) !important;
+    --bg-overlay-color-inverse: var(--base03) !important;
     --bg-surface-raised: var(--base02) !important;
+    --bg-surface-overlay: var(--base00) !important;
     --black: var(--base00) !important;
     --blurple-50: var(--base03) !important;
     --border-faint: var(--base02) !important;
@@ -294,7 +296,13 @@ rect[fill^="#80848e"] {
 path[fill^="currentColor"],
 svg[fill^="currentColor"],
 rect[fill^="currentColor"] {
-    fill: var(--base07) !important;
+    fill: var(--base06) !important;
+}
+
+/*--- Voice Chat Icon Badge Recolor ---*/
+div[class^="iconBadge"] path[d^="M12 3a1 1 0 0 0-1-1h-.06"],
+div[class^="iconBadge"] path[d^="M15.16 16.51c-.57.28"] {
+    fill: var(--base05) !important;
 }
 
 /*--- Nitro Icon Recolor ---*/
