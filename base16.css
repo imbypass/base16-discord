@@ -53,11 +53,13 @@
     --background-base-lowest: var(--base00) !important;
     --background-base-tertiary: var(--base00) !important;
     --background-code: var(--base02) !important;
+    --bg-base-secondary: var(--base01) !important;
     --bg-base-tertiary: var(--base00) !important;
     --bg-brand: var(--base03) !important;
     --bg-mod-faint: var(--base01) !important;
     --bg-overlay-2: var(--base01) !important;
     --bg-overlay-3: var(--base01) !important;
+    --bg-surface-raised: var(--base02) !important;
     --black: var(--base00) !important;
     --blurple-50: var(--base03) !important;
     --border-faint: var(--base02) !important;
@@ -79,6 +81,7 @@
     --button-positive-background: var(--base0B) !important;
     --button-positive-background-hover: var(--base03) !important;
     --button-secondary-background: var(--base02) !important;
+    --button-secondary-background-hover: var(--base03) !important;
     --card-primary-bg: var(--base02) !important;
     --channel-icon: var(--base04) !important;
     --channels-default: var(--base04) !important;
