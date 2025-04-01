@@ -298,6 +298,9 @@ svg[fill^="currentColor"],
 rect[fill^="currentColor"] {
     fill: var(--base06) !important;
 }
+path[d^="M12 22a10 10 0 1"] {
+    fill: var(--base02) !important;
+}
 
 /*--- Voice Chat Icon Badge Recolor ---*/
 div[class^="iconBadge"] path[d^="M12 3a1 1 0 0 0-1-1h-.06"],
