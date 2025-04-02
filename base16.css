@@ -388,6 +388,9 @@ svg.guildBoostBadge__5dba5 path {
 /*--- Visual Refresh Recolor ---*/
 /*--- BIG WORK IN PROGRESS. DISCORD MADE SOME BIG CHANGES. ---*/
 .visual-refresh {
+    div[class^="autocomplete__"] {
+        background-color: var(--base02) !important;
+    }
     path[fill^="rgba(88, 101, 242, 1)"] {
         fill: var(--base0B) !important;
     }
