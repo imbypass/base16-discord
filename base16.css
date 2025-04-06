@@ -85,6 +85,7 @@
     --button-positive-background-hover: var(--base03) !important;
     --button-secondary-background: var(--base02) !important;
     --button-secondary-background-hover: var(--base03) !important;
+    --button-secondary-text: var(--base05) !important;
     --card-primary-bg: var(--base02) !important;
     --channel-icon: var(--base04) !important;
     --channels-default: var(--base04) !important;
@@ -124,6 +125,7 @@
     --notice-background-positive: var(--base0B) !important;
     --notice-text-positive: var(--base01) !important;
     --plum-23: var(--base02) !important;
+    --profile-gradient-button-color: var(--base02) !important;
     --primary-130: var(--base05) !important;
     --primary-300: var(--base05) !important;
     --primary-500: var(--base02) !important;
@@ -300,7 +302,7 @@ rect[fill^="currentColor"] {
     fill: var(--base06) !important;
 }
 path[d^="M12 22a10 10 0 1"] {
-    fill: var(--base02) !important;
+    fill: var(--base05) !important;
 }
 
 /*--- Voice Chat Icon Badge Recolor ---*/
@@ -396,6 +398,9 @@ svg.guildBoostBadge__5dba5 path {
     }
     div[class^="topicsPillContainer"] {
         --bg-overlay-2: var(--base02) !important;
+    }
+    .tagPill__9a337 {
+        background-color: var(--base00) !important;
     }
     .bg__960e4 {
         background: var(--base00) !important;
