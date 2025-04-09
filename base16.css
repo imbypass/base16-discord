@@ -54,7 +54,7 @@
     --background-base-tertiary: var(--base00) !important;
     --background-code: var(--base02) !important;
     --background-mod-subtle: var(--base02) !important;
-    --bg-base-secondary: var(--base01) !important;
+    --bg-base-secondary: var(--base00) !important;
     --bg-base-tertiary: var(--base00) !important;
     --bg-brand: var(--base03) !important;
     --bg-mod-faint: var(--base01) !important;
@@ -301,9 +301,6 @@ svg[fill^="currentColor"],
 rect[fill^="currentColor"] {
     fill: var(--base06) !important;
 }
-path[d^="M12 22a10 10 0 1"] {
-    fill: var(--base05) !important;
-}
 
 /*--- Voice Chat Icon Badge Recolor ---*/
 div[class^="iconBadge"] path[d^="M12 3a1 1 0 0 0-1-1h-.06"],
@@ -405,6 +402,9 @@ svg.guildBoostBadge__5dba5 path {
     .bg__960e4 {
         background: var(--base00) !important;
     }
+    .header_f37cb1 {
+        background-color: var(--base01) !important;
+    }
     .wrapper_ef3116 {
         background-color: var(--base00) !important;
     }
@@ -418,7 +418,7 @@ svg.guildBoostBadge__5dba5 path {
         background: var(--base02) !important;
     }
     .chatContent_f75fb0 {
-        background-color: var(--base01) !important;
+        background-color: var(--base00) !important;
     }
     .members_c8ffbb,
     .member_c8ffbb {
