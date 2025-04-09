@@ -3,7 +3,7 @@ A lightweight recoloring of the default [Discord](https://discord.com/) theme to
 
 
 ## Preview:
-![base16-discord (Rose Pine shown)](https://0x0.st/8jDH.png)
+![base16-discord (Rose Pine shown)](https://0x0.st/8_02.png)
 
 
 ### Installation (QuickCSS Import):
