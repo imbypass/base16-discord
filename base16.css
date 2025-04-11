@@ -434,23 +434,38 @@ svg.guildBoostBadge__5dba5 path {
 
     /*--- Status Icon Recolor (DO NOT DISTURB) ---*/
     svg[fill^="#d83a42"],
-    rect[fill^="#d83a42"] {
+    rect[fill^="#d83a42"],
+    path[fill^="#d83a42"],
+    svg[fill^="#d83a41"],
+    rect[fill^="#d83a41"],
+    path[fill^="#d83a41"] {
         fill: var(--status-danger) !important;
     }
     /*--- Status Icon Recolor (IDLE) ---*/
     svg[fill^="#ca9654"],
-    rect[fill^="#ca9654"] {
+    rect[fill^="#ca9654"],
+    path[fill^="#ca9654"],
+    svg[fill^="#cc954c"],
+    rect[fill^="#cc954c"],
+    path[fill^="#cc954c"] {
         fill: var(--status-warning) !important;
     }
     /*--- Status Icon Recolor (ONLINE) ---*/
     path[fill^="#43a25a"],
     svg[fill^="#43a25a"],
-    rect[fill^="#43a25a"] {
+    rect[fill^="#43a25a"],
+    path[fill^="#40a258"],
+    svg[fill^="#40a258"],
+    rect[fill^="#40a258"] {
         fill: var(--status-positive) !important;
     }
     /*--- Status Icon Recolor (OFFLINE) ---*/
     svg[fill^="#83838b"],
-    rect[fill^="#83838b"] {
+    rect[fill^="#83838b"],
+    path[fill^="#83838b"],
+    svg[fill^="#82838b"],
+    rect[fill^="#82838b"],
+    path[fill^="#82838b"] {
         fill: var(--base03) !important;
     }
 }
