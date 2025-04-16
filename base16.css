@@ -104,6 +104,7 @@
     --font-primary: var(--font, "gg sans") !important;
     --green-330: var(--base0B) !important;
     --green-360: var(--base0B) !important;
+    --green-300: var(--base0B) !important;
     --header-primary: var(--base04) !important;
     --header-secondary: var(--base03) !important;
     --home-background: var(--base00) !important;
@@ -191,7 +192,7 @@
 
 /*--- Close Icon Path Recolor ---*/
 svg[class^="closeIcon__"] path {
-    fill: var(--base01) !important;
+    fill: var(--base04) !important;
 }
 
 /*--- Listen Along Invite Recolor ---*/
@@ -264,7 +265,7 @@ div[class^="actionButtons"] [class^="button"] [class*="buttonColor_"] {
 .checked__87bf1 {
     background-color: var(--base0B) !important;
 }
-path[fill^="rgba(35, 165, 90, 1)"] {
+path[fill^="var(--brand-500)"] {
     fill: var(--base0B) !important;
 }
 
@@ -430,6 +431,11 @@ svg.guildBoostBadge__5dba5 path {
     button.button__67645.redGlow__67645,
     span.button__67645.redGlow__67645 {
         background-color: var(--base02) !important;
+    }
+
+    .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9 {
+        background-color: var(--base0B) !important;
+        color: var(--base00) !important;
     }
 
     /*--- Status Icon Recolor (DO NOT DISTURB) ---*/
