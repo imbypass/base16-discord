@@ -1,9 +1,9 @@
 /**
 * @name base16-discord
 * @author @bypass_
-* @version 0.1.3
+* @version 0.1.6
 * @website https://github.com/imbypass/base16-Discord
-* @description base16 theme for Discord
+* @description Default Discord theme fitted with base16 variables
 **/
 
 :root {
@@ -99,6 +99,8 @@
     --control-brand-foreground-new: var(--base0D) !important;
     --control-brand-foreground: var(--base04) !important;
     --custom-notice-text: var(--base01) !important;
+    --deprecated-text-input-bg: var(--base01) !important;
+    --deprecated-text-input-border: var(--base02) !important;
     --font-display: var(--font, "gg sans") !important;
     --font-headline: var(--font, "gg sans") !important;
     --font-primary: var(--font, "gg sans") !important;
@@ -106,7 +108,7 @@
     --green-360: var(--base0B) !important;
     --green-300: var(--base0B) !important;
     --header-primary: var(--base04) !important;
-    --header-secondary: var(--base03) !important;
+    --header-secondary: var(--base04) !important;
     --home-background: var(--base00) !important;
     --info-warning-foreground: var(--base0A) !important;
     --input-background: var(--base02) !important;
@@ -171,6 +173,7 @@
     --text-warning: var(--base09) !important;
     --textbox-markdown-syntax: var(--base05) !important;
     --theme-base-color: var(--base00) !important;
+    --user-profile-overlay-background: var(--base01) !important;
     --white-100: var(--base05) !important;
     --white-200: var(--base05) !important;
     --white-500: var(--base05) !important;
@@ -186,9 +189,9 @@
 }
 
 /*--- Add Friend Button Text Recolor ---*/
-.addFriend__133bf {
+/* .addFriend__133bf {
     color: var(--base00) !important;
-}
+} */
 
 /*--- Close Icon Path Recolor ---*/
 svg[class^="closeIcon__"] path {
@@ -436,6 +439,10 @@ svg.guildBoostBadge__5dba5 path {
     .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9 {
         background-color: var(--base0B) !important;
         color: var(--base00) !important;
+    }
+
+    .selectedBackground_e681d1 {
+        background-color: var(--base02) !important;
     }
 
     /*--- Status Icon Recolor (DO NOT DISTURB) ---*/
