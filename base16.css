@@ -347,6 +347,22 @@ svg.guildBoostBadge__5dba5 path {
 }
 
 /*--- Codeblock Syntax Highlighting Recolor ---*/
+
+.hljs-ansi-foreground-red {
+    color: var(--base08) !important;
+}
+.hljs-ansi-foreground-green {
+    color: var(--base0B) !important;
+}
+.hljs-ansi-foreground-yellow {
+    color: var(--base0A) !important;
+}
+.hljs-ansi-foreground-blue {
+    color: var(--base0D) !important;
+}
+.hljs-ansi-foreground-magenta {
+    color: var(--base0E) !important;
+}
 .hljs-attr {
     color: var(--base06) !important;
 }
