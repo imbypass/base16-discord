@@ -99,6 +99,7 @@
     --control-brand-foreground-new: var(--base0D) !important;
     --control-brand-foreground: var(--base04) !important;
     --custom-notice-text: var(--base01) !important;
+    --custom-poll-style-vote-percentage: var(--base04) !important;
     --deprecated-text-input-bg: var(--base01) !important;
     --deprecated-text-input-border: var(--base02) !important;
     --font-display: var(--font, "gg sans") !important;
@@ -128,6 +129,7 @@
     --notice-background-positive: var(--base0B) !important;
     --notice-text-positive: var(--base01) !important;
     --plum-23: var(--base02) !important;
+    --polls-victor-fill: var(--base0B) !important;
     --profile-gradient-button-color: var(--base02) !important;
     --primary-130: var(--base05) !important;
     --primary-300: var(--base05) !important;
