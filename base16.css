@@ -43,7 +43,7 @@
     --background-modifier-selected: var(--base01) !important;
     --background-primary: var(--base00) !important;
     --background-secondary-alt: var(--base01) !important;
-    --background-secondary: var(--base01) !important;
+    --background-secondary: var(--base00) !important;
     --background-surface-highest: var(--base02) !important;
     --background-surface-higher: var(--base02) !important;
     --background-surface-high: var(--base02) !important;
@@ -187,6 +187,12 @@
     --yellow-360: var(--base0A) !important;
     --yellow-300: var(--base0A) !important;
     --__lottieIconColor: var(--base03) !important;
+}
+
+/*--- Selected Text Recolor ---*/
+::selection {
+    color: var(--base00);
+    background: var(--base03);
 }
 
 /*--- Default Folder Color Recolor ---*/
