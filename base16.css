@@ -200,10 +200,10 @@
     background-color: var(--base07) !important;
 }
 
-/*--- Add Friend Button Text Recolor ---*/
-/* .addFriend__133bf {
-    color: var(--base00) !important;
-} */
+/*--- Discord Icon (Top Right) Recolor ---*/
+.childWrapper__6e9f8 {
+    background-color: var(--base02) !important;
+}
 
 /*--- Close Icon Path Recolor ---*/
 svg[class^="closeIcon__"] path {
