@@ -141,6 +141,7 @@
     --primary-600: var(--base00) !important;
     --primary-630: var(--base01) !important;
     --primary-660: var(--base00) !important;
+    --primary-700: var(--base01) !important;
     --primary-800: var(--base00) !important;
     --red-400: var(--base08) !important;
     --red-460: var(--base08) !important;
@@ -321,13 +322,22 @@ rect[fill^="currentColor"] {
 /*--- Voice Chat Icon Badge Recolor ---*/
 div[class^="iconBadge"] path[d^="M12 3a1 1 0 0 0-1-1h-.06"],
 div[class^="iconBadge"] path[d^="M15.16 16.51c-.57.28"] {
-    fill: var(--base05) !important;
+    fill: var(--base03) !important;
 }
 
 /*--- Nitro Icon Recolor ---*/
 .premiumLabel_e681d1 svg path,
 svg.guildBoostBadge__5dba5 path {
     fill: var(--base0E) !important;
+}
+path[d^="M4 0L0 4V8L4 12L8"],
+path[d^="M2 4.83V7.17L4 9.17L6"] {
+    fill: var(--base0E) !important;
+}
+
+/*--- Typing Indicator Recolor ---*/
+.avatar__20a53 .dots__5ad89 {
+    color: var(--base01) !important;
 }
 
 /*--- Server Booster Icon Recolor ---*/
