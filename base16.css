@@ -335,10 +335,14 @@ path[d^="M2 4.83V7.17L4 9.17L6"] {
     fill: var(--base0E) !important;
 }
 
-/*--- More Icon Recolors ---*/
+/*--- Scheduled Event Icon Recolor ---*/
 path[d^="M2 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v9a3 3 0 0 1-3"],
 path[d^="M7 1a1 1 0 0 1 1 1v.75c0 .14.11.25.25.25h7.5c.14 0"] {
-    fill: var(--base03) !important;
+    fill: var(--base02) !important;
+}
+
+path[d^="M5 2a3 3 0 0 0-3 3v8a3 3 0 0 0 3"] {
+    fill: var(--base02) !important;
 }
 
 /*--- Typing Indicator Recolor ---*/
