@@ -341,6 +341,7 @@ path[d^="M7 1a1 1 0 0 1 1 1v.75c0 .14.11.25.25.25h7.5c.14 0"] {
     fill: var(--base02) !important;
 }
 
+/*--- Voice Channel Streaming Icon Recolor ---*/
 path[d^="M5 2a3 3 0 0 0-3 3v8a3 3 0 0 0 3"] {
     fill: var(--base02) !important;
 }
@@ -374,6 +375,15 @@ path[d^="M5 2a3 3 0 0 0-3 3v8a3 3 0 0 0 3"] {
 }
 .bannerGradient__955a3 {
     background: var(--base00) !important;
+}
+
+/*--- New Messages Summary Bar Recolor ---*/
+.newMessagesBar__0f481 {
+    background-color: var(--base03);
+
+    button.barButtonAlt__0f481 {
+        background-color: var(--base02) !important;
+    }
 }
 
 /*--- Increase Text Legibility ---*/
