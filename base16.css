@@ -322,7 +322,7 @@ rect[fill^="currentColor"] {
 /*--- Voice Chat Icon Badge Recolor ---*/
 div[class^="iconBadge"] path[d^="M12 3a1 1 0 0 0-1-1h-.06"],
 div[class^="iconBadge"] path[d^="M15.16 16.51c-.57.28"] {
-    fill: var(--base03) !important;
+    fill: var(--base02) !important;
 }
 
 /*--- Nitro Icon Recolor ---*/
@@ -335,9 +335,20 @@ path[d^="M2 4.83V7.17L4 9.17L6"] {
     fill: var(--base0E) !important;
 }
 
+/*--- More Icon Recolors ---*/
+path[d^="M2 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v9a3 3 0 0 1-3"],
+path[d^="M7 1a1 1 0 0 1 1 1v.75c0 .14.11.25.25.25h7.5c.14 0"] {
+    fill: var(--base03) !important;
+}
+
 /*--- Typing Indicator Recolor ---*/
 .avatar__20a53 .dots__5ad89 {
     color: var(--base01) !important;
+}
+
+/*--- Other Voice Channel Background Recolor ---*/
+.iconBadge__650eb {
+    background-color: var(--base0D);
 }
 
 /*--- Server Booster Icon Recolor ---*/
