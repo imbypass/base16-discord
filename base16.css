@@ -196,6 +196,11 @@
     background: var(--base03);
 }
 
+/*--- Mention Interactive Hover Color ---*/
+.mention.interactive:hover {
+    background-color: var(--base04) !important;
+}
+
 /*--- Default Folder Color Recolor ---*/
 .default__459fb {
     background-color: var(--base07) !important;
@@ -384,6 +389,10 @@ path[d^="M5 2a3 3 0 0 0-3 3v8a3 3 0 0 0 3"] {
     button.barButtonAlt__0f481 {
         background-color: var(--base02) !important;
     }
+}
+
+.lookFilled__201d5.colorGreen__201d5 {
+    color: var(--base00) !important;
 }
 
 /*--- Increase Text Legibility ---*/
