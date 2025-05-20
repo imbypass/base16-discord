@@ -391,7 +391,7 @@ path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0"] {
 }
 
 /*--- Typing Indicator Recolor ---*/
-.avatar__20a53 .dots__5ad89 {
+.dots__5ad89 {
     color: var(--base02) !important;
 }
 
