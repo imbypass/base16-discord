@@ -316,6 +316,11 @@ div.folderIconWrapper__48112 {
     }
 }
 
+/*--- Unread Messages Indicator Recolor ---*/
+.unreadPill__908e2 {
+    color: var(--base01);
+}
+
 /*--- Button Text Recolor ---*/
 .lookFilled__201d5.colorGreen__201d5,
 .lookFilled__201d5.colorRed__201d5 {
