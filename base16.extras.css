@@ -64,10 +64,11 @@ rect[fill^="currentColor"] {
 /*--- Voice Chat Icon Badge Recolor ---*/
 div[class^="iconBadge"] path[d^="M12 3a1 1 0 0 0-1-1h-.06"],
 div[class^="iconBadge"] path[d^="M15.16 16.51c-.57.28"] {
-    fill: var(--base02) !important;
+    fill: var(--base05) !important;
 }
 /*--- Current User Connected Voice Chat Icon Badge Recolor ---*/
-.isCurrentUserConnected__650eb svg path[d^="M12 3a1 1 0 0 0-1-1h-.06"] {
+.isCurrentUserConnected__650eb svg path[d^="M12 3a1 1 0 0 0-1-1h-.06"],
+.isCurrentUserConnected__650eb svg path[d^="M15.16 16.51c-.57.28"] {
     fill: var(--base02) !important;
 }
 /*--- Add Friend Icon Recolor ---*/
