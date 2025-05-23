@@ -131,6 +131,10 @@
     --modal-footer-background: var(--base00) !important;
     --notice-background-positive: var(--base0B) !important;
     --notice-text-positive: var(--base01) !important;
+    --notice-background-warning: var(--base0A) !important;
+    --notice-text-warning: var(--base01) !important;
+    --notice-background-negative: var(--base08) !important;
+    --notice-text-negative: var(--base01) !important;
     --opacity-blurple-24: var(--base02) !important;
     --plum-23: var(--base02) !important;
     --polls-victor-fill: var(--base0B) !important;
