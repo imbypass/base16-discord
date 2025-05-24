@@ -66,11 +66,6 @@ div[class^="iconBadge"] path[d^="M12 3a1 1 0 0 0-1-1h-.06"],
 div[class^="iconBadge"] path[d^="M15.16 16.51c-.57.28"] {
     fill: var(--base05) !important;
 }
-/*--- Current User Connected Voice Chat Icon Badge Recolor ---*/
-.isCurrentUserConnected__650eb svg path[d^="M12 3a1 1 0 0 0-1-1h-.06"],
-.isCurrentUserConnected__650eb svg path[d^="M15.16 16.51c-.57.28"] {
-    fill: var(--base02) !important;
-}
 /*--- Add Friend Icon Recolor ---*/
 path[d^="M19 14a1 1 0 0 1 1 1v3h3a1"],
 path[d^="M16.83 12.93c.26-.27.26-.75-.08-.92A9.5"] {
@@ -98,7 +93,7 @@ path[d^="M7 1a1 1 0 0 1 1 1v.75c0 .14.11.25.25.25h7.5c.14 0"] {
 }
 /*--- Voice Channel Streaming Icon Recolor ---*/
 path[d^="M5 2a3 3 0 0 0-3 3v8a3 3 0 0 0 3"] {
-    fill: var(--base05) !important;
+    fill: var(--base05);
 }
 /*--- Voice Channel Camera Icon Recolor ---*/
 path[d^="M4 4a3 3 0 0 0-3 3v10a3 3"] {
@@ -108,4 +103,11 @@ path[d^="M4 4a3 3 0 0 0-3 3v10a3 3"] {
 /*--- Selected Checkmark Icon Recolor ---*/
 path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0"] {
     fill: var(--base03) !important;
+}
+
+/*--- Current User Connected Voice Chat Icon Badge Recolor ---*/
+.isCurrentUserConnected__650eb svg path[d^="M12 3a1 1 0 0 0-1-1h-.06"],
+.isCurrentUserConnected__650eb svg path[d^="M15.16 16.51c-.57.28"],
+.isCurrentUserConnected__650eb svg path[d^="M5 2a3 3 0 0 0-3 3v8a3 3"] {
+    fill: var(--base02) !important;
 }
