@@ -53,7 +53,7 @@
     --background-base-lowest: var(--base00) !important;
     --background-base-tertiary: var(--base00) !important;
     --background-code: var(--base02) !important;
-    --background-mod-subtle: var(--base02) !important;
+    --background-mod-subtle: var(--base01) !important;
     --bg-base-secondary: var(--base00) !important;
     --bg-base-tertiary: var(--base00) !important;
     --bg-brand: var(--base03) !important;
@@ -170,6 +170,7 @@
     --status-warning: var(--base09) !important;
     --teal-430: var(--base0C) !important;
     --text-brand: var(--base06) !important;
+    --text-default: var(--base06) !important;
     --text-feedback-positive: var(--base0B) !important;
     --text-feedback-negative: var(--base08) !important;
     --text-feedback-warning: var(--base09) !important;
