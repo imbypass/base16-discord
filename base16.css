@@ -296,6 +296,11 @@ div.folderIconWrapper__48112 {
     color: var(--base0F);
 }
 
+/*--- Server Boost Progress Bar Recolor ---*/
+.progress__0d0f9 {
+    background: var(--base0F) !important;
+}
+
 /*--- Call Container Recolor ---*/
 .callContainer_cb9592 {
     background-color: var(--base00);
