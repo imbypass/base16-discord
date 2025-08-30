@@ -116,6 +116,8 @@
     --home-background: var(--base00) !important;
     --info-warning-foreground: var(--base0A) !important;
     --input-background: var(--base02) !important;
+    --input-border: var(--base03) !important;
+    --input-placeholder-text: var(--base03) !important;
     --interactive-active: var(--base05) !important;
     --interactive-hover: var(--base05) !important;
     --interactive-muted: var(--base03) !important;
