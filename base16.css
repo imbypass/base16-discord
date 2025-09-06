@@ -95,6 +95,7 @@
     --channel-text-area-placeholder: var(--base03) !important;
     --channeltextarea-background: var(--base01) !important;
     --chat-background-default: var(--base02) !important;
+    --chat-text-muted: var(--base03) !important;
     --checkbox-background-checked: var(--base0D) !important;
     --checkbox-border-checked: var(--base0D) !important;
     --checkbox-background-default: var(--base02) !important;
@@ -337,6 +338,12 @@ div.folderIconWrapper__48112 {
 .lookFilled__201d5.colorGreen__201d5,
 .lookFilled__201d5.colorRed__201d5 {
     color: var(--base00) !important;
+}
+
+
+/*--- Remove Folder Group Borders ---*/
+.folderGroupBackground__48112 {
+    border: none;
 }
 
 /*--- Increase Text Legibility ---*/
