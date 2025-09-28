@@ -37,6 +37,7 @@
     --background-mentioned: var(--base01) !important;
     --background-message-highlight: var(--base01) !important;
     --background-message-hover: var(--base00) !important;
+    --background-mod-strong: var(--base02) !important;
     --background-modifier-accent: var(--base02) !important;
     --background-modifier-active: var(--base02) !important;
     --background-modifier-hover: var(--base00) !important;
@@ -94,7 +95,7 @@
     --channels-default: var(--base04) !important;
     --channel-text-area-placeholder: var(--base03) !important;
     --channeltextarea-background: var(--base01) !important;
-    --chat-background-default: var(--base02) !important;
+    --chat-background-default: var(--base01) !important;
     --chat-text-muted: var(--base03) !important;
     --checkbox-background-checked: var(--base0D) !important;
     --checkbox-border-checked: var(--base0D) !important;
@@ -173,7 +174,7 @@
     --status-warning: var(--base09) !important;
     --teal-430: var(--base0C) !important;
     --text-brand: var(--base06) !important;
-    --text-default: var(--base06) !important;
+    --text-default: var(--base05) !important;
     --text-feedback-positive: var(--base0B) !important;
     --text-feedback-negative: var(--base08) !important;
     --text-feedback-warning: var(--base09) !important;
@@ -340,7 +341,6 @@ div.folderIconWrapper__48112 {
     color: var(--base00) !important;
 }
 
-
 /*--- Remove Folder Group Borders ---*/
 .folderGroupBackground__48112 {
     border: none;
@@ -442,7 +442,7 @@ div.folderIconWrapper__48112 {
         background-color: var(--base02) !important;
     }
     .channelTextArea_f75fb0 {
-        background: var(--base02) !important;
+        background: var(--base01) !important;
     }
     .chatContent_f75fb0 {
         background-color: var(--base00) !important;
