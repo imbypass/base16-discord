@@ -1,7 +1,7 @@
 /**
 * @name pywal-discord
 * @author @bypass_
-* @version 0.1.6
+* @version 0.1.0
 * @website https://github.com/imbypass/base16-Discord
 * @description Default Discord theme built for pywal
 **/
@@ -11,18 +11,16 @@
 * It uses the following CSS variables to attempt to make a clean
 * looking theme that works with anything pywal throws at it.
 
-Easily adjustable CSS Variables:
+:root {
+    --background: #0a0a0c;
+    --text: #c2c2c5;
+    --subtext: #5e5a6e;
 
-    :root {
-        --background: #0e0b19;
-        --text: #c2c2c5;
-        --subtext: #5e5a6e;
-
-        --accent: #5d5687;
-        --green: #3f405a;
-        --red: #977b9a;
-        --yellow: #48445e;
-    }
+    --accent: #9a7ecd;
+    --green: #9ece6a;
+    --red: #f7768e;
+    --yellow: #e0af68;
+}
 
 **/
 
@@ -137,8 +135,8 @@ Easily adjustable CSS Variables:
     --header-primary: var(--base0F) !important;
     --header-secondary: var(--base0B) !important;
     --home-background: var(--base00) !important;
-    --icon-primary: var(--base0A) !important;
-    --icon-tertiary: var(--base0A) !important;
+    --icon-primary: var(--base0F) !important;
+    --icon-tertiary: var(--base0F) !important;
     --info-warning-foreground: var(--base0A) !important;
     --input-background: var(--base03) !important;
     --input-border: var(--base03) !important;
