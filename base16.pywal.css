@@ -6,6 +6,26 @@
 * @description Default Discord theme built for pywal
 **/
 
+/**
+* This version of base16-discord is MAJORLY slimmed down and built for use in Omarchy.
+* It uses the following CSS variables to attempt to make a clean
+* looking theme that works with anything pywal throws at it.
+
+Easily adjustable CSS Variables:
+
+    :root {
+        --background: #0e0b19;
+        --text: #c2c2c5;
+        --subtext: #5e5a6e;
+
+        --accent: #5d5687;
+        --green: #3f405a;
+        --red: #977b9a;
+        --yellow: #48445e;
+    }
+
+**/
+
 :root {
     --base00: var(--background);
     --base01: color-mix(in srgb, var(--background) 90%, white);
