@@ -11,16 +11,18 @@
 * It uses the following CSS variables to attempt to make a clean
 * looking theme that works with anything pywal throws at it.
 
-:root {
-    --background: #0a0a0c;
-    --text: #c2c2c5;
-    --subtext: #5e5a6e;
+Easily adjustable CSS Variables:
 
-    --accent: #9a7ecd;
-    --green: #9ece6a;
-    --red: #f7768e;
-    --yellow: #e0af68;
-}
+    :root {
+        --background: #0e0b19;
+        --text: #c2c2c5;
+        --subtext: #5e5a6e;
+
+        --accent: #5d5687;
+        --green: #3f405a;
+        --red: #977b9a;
+        --yellow: #48445e;
+    }
 
 **/
 
@@ -133,7 +135,7 @@
     --green-360: var(--base0B) !important;
     --green-300: var(--base0B) !important;
     --header-primary: var(--base0F) !important;
-    --header-secondary: var(--base0B) !important;
+    --header-secondary: var(--base0F) !important;
     --home-background: var(--base00) !important;
     --icon-primary: var(--base0F) !important;
     --icon-tertiary: var(--base0F) !important;
