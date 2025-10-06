@@ -1,48 +1,28 @@
 /**
-* @name pywal-discord
+* @name Omarchy Discord
 * @author @bypass_
-* @version 0.1.0
+* @version 0.1.6
 * @website https://github.com/imbypass/base16-Discord
-* @description Default Discord theme built for pywal
-**/
-
-/**
-* This version of base16-discord is MAJORLY slimmed down and built for use in Omarchy.
-* It uses the following CSS variables to attempt to make a clean
-* looking theme that works with anything pywal throws at it.
-
-Easily adjustable CSS Variables:
-
-    :root {
-        --background: #0e0b19;
-        --text: #c2c2c5;
-        --subtext: #5e5a6e;
-
-        --accent: #5d5687;
-        --green: #3f405a;
-        --red: #977b9a;
-        --yellow: #48445e;
-    }
-
+* @description Dynamic theme for Discord and Omarchy
 **/
 
 :root {
-    --base00: var(--background);
-    --base01: color-mix(in srgb, var(--background) 95%, white);
-    --base02: color-mix(in srgb, var(--background) 90%, white);
-    --base03: color-mix(in srgb, var(--background) 85%, white);
-    --base04: color-mix(in srgb, var(--background) 80%, white);
-    --base05: color-mix(in srgb, var(--text) 100%, white);
-    --base06: color-mix(in srgb, var(--background) 75%, white);
-    --base07: color-mix(in srgb, var(--background) 70%, white);
-    --base08: var(--red);
-    --base09: var(--yellow);
-    --base0A: var(--yellow);
-    --base0B: var(--green);
-    --base0C: var(--accent);
-    --base0D: var(--accent);
-    --base0E: var(--accent);
-    --base0F: var(--accent);
+    --base00: var(--color00);
+    --base01: color-mix(in srgb, var(--color00) 100%, white);
+    --base02: color-mix(in srgb, var(--color00) 90%, white);
+    --base03: color-mix(in srgb, var(--color00) 80%, white);
+    --base04: color-mix(in srgb, var(--color00) 70%, white);
+    --base05: var(--color05);
+    --base06: color-mix(in srgb, var(--color05) 75%, white);
+    --base07: color-mix(in srgb, var(--color05) 70%, white);
+    --base08: var(--color08);
+    --base09: var(--color09);
+    --base0A: var(--color10);
+    --base0B: var(--color11);
+    --base0C: var(--color12);
+    --base0D: var(--color13);
+    --base0E: var(--color14);
+    --base0F: var(--color15);
 }
 
 .theme-light,
@@ -50,14 +30,14 @@ Easily adjustable CSS Variables:
 .theme-darker,
 .theme-midnight,
 .visual-refresh {
-    --activity-card-background: var(--base00) !important;
+    --activity-card-background: var(--base01) !important;
     --background-accent: var(--base03) !important;
     --background-floating: var(--base02) !important;
     --background-mentioned-hover: var(--base02) !important;
-    --background-mentioned: var(--base00) !important;
+    --background-mentioned: var(--base01) !important;
     --background-message-highlight: var(--base01) !important;
     --background-message-hover: var(--base00) !important;
-    --background-mod-strong: var(--base00) !important;
+    --background-mod-strong: var(--base02) !important;
     --background-modifier-accent: var(--base02) !important;
     --background-modifier-active: var(--base02) !important;
     --background-modifier-hover: var(--base00) !important;
@@ -65,11 +45,11 @@ Easily adjustable CSS Variables:
     --background-primary: var(--base00) !important;
     --background-secondary-alt: var(--base01) !important;
     --background-secondary: var(--base00) !important;
-    --background-surface-highest: var(--base01) !important;
-    --background-surface-higher: var(--base01) !important;
-    --background-surface-high: var(--base00) !important;
+    --background-surface-highest: var(--base02) !important;
+    --background-surface-higher: var(--base02) !important;
+    --background-surface-high: var(--base02) !important;
     --background-tertiary: var(--base00) !important;
-    --background-base-low: var(--base00) !important;
+    --background-base-low: var(--base01) !important;
     --background-base-lower: var(--base00) !important;
     --background-base-lowest: var(--base00) !important;
     --background-base-tertiary: var(--base00) !important;
@@ -87,7 +67,6 @@ Easily adjustable CSS Variables:
     --black: var(--base00) !important;
     --blurple-50: var(--base0D) !important;
     --border-faint: var(--base02) !important;
-    --border-subtle: var(--base02) !important;
     --brand-05a: var(--base01) !important;
     --brand-10a: var(--base01) !important;
     --brand-15a: var(--base01) !important;
@@ -111,12 +90,12 @@ Easily adjustable CSS Variables:
     --button-secondary-background-disabled: var(--base03) !important;
     --button-secondary-background-hover: var(--base03) !important;
     --button-secondary-text: var(--base05) !important;
-    --card-primary-bg: var(--base01) !important;
-    --channel-icon: var(--base05) !important;
-    --channels-default: var(--base05) !important;
+    --card-primary-bg: var(--base02) !important;
+    --channel-icon: var(--base04) !important;
+    --channels-default: var(--base03) !important;
     --channel-text-area-placeholder: var(--base03) !important;
     --channeltextarea-background: var(--base01) !important;
-    --chat-background-default: var(--base00) !important;
+    --chat-background-default: var(--base01) !important;
     --chat-text-muted: var(--base03) !important;
     --checkbox-background-checked: var(--base0D) !important;
     --checkbox-border-checked: var(--base0D) !important;
@@ -134,17 +113,14 @@ Easily adjustable CSS Variables:
     --green-330: var(--base0B) !important;
     --green-360: var(--base0B) !important;
     --green-300: var(--base0B) !important;
-    --header-primary: var(--base05) !important;
+    --header-primary: var(--base04) !important;
     --header-secondary: var(--base04) !important;
     --home-background: var(--base00) !important;
-    --icon-primary: var(--base04) !important;
-    --icon-secondary: var(--base0F) !important;
-    --icon-tertiary: var(--base04) !important;
     --info-warning-foreground: var(--base0A) !important;
-    --input-background: var(--base03) !important;
+    --input-background: var(--base02) !important;
     --input-border: var(--base03) !important;
     --input-placeholder-text: var(--base03) !important;
-    --interactive-active: var(--base0F) !important;
+    --interactive-active: var(--base05) !important;
     --interactive-hover: var(--base05) !important;
     --interactive-muted: var(--base03) !important;
     --interactive-normal: var(--base05) !important;
@@ -197,19 +173,19 @@ Easily adjustable CSS Variables:
     --status-warning-background: var(--base03) !important;
     --status-warning: var(--base09) !important;
     --teal-430: var(--base0C) !important;
-    --text-brand: var(--base03) !important;
-    --text-default: var(--base05) !important;
+    --text-brand: var(--base06) !important;
+    --text-default: var(--base0F) !important;
     --text-feedback-positive: var(--base0B) !important;
     --text-feedback-negative: var(--base08) !important;
     --text-feedback-warning: var(--base09) !important;
     --text-feedback-success: var(--base0B) !important;
-    --text-link: var(--base0D) !important;
-    --text-muted: var(--base04) !important;
+    --text-link: var(--base04) !important;
+    --text-muted: var(--base03) !important;
     --text-negative: var(--base08) !important;
-    --text-normal: var(--base05) !important;
+    --text-normal: var(--base0F) !important;
     --text-positive: var(--base0B) !important;
-    --text-primary: var(--base05) !important;
-    --text-secondary: var(--base03) !important;
+    --text-primary: var(--base0F) !important;
+    --text-secondary: var(--base04) !important;
     --text-tertiary: var(--base03) !important;
     --text-warning: var(--base09) !important;
     --textbox-markdown-syntax: var(--base05) !important;
@@ -221,7 +197,7 @@ Easily adjustable CSS Variables:
     --white: var(--base05) !important;
     --yellow-360: var(--base0A) !important;
     --yellow-300: var(--base0A) !important;
-    --__lottieIconColor: var(--base04) !important;
+    --__lottieIconColor: var(--base03) !important;
 }
 
 /*--- Selected Text Recolor ---*/
@@ -300,7 +276,7 @@ div[class^="bar__"] {
 
 /*--- Folder Icon Recolor ---*/
 div.folderIconWrapper__48112 {
-    background-color: var(--base00) !important;
+    background-color: var(--base01) !important;
 }
 
 /*--- Unread Message Badge Text Color ---*/
@@ -463,7 +439,7 @@ div.folderIconWrapper__48112 {
         background-color: var(--base00) !important;
     }
     .searchBar__97492 {
-        background-color: var(--base00) !important;
+        background-color: var(--base02) !important;
     }
     .channelTextArea_f75fb0 {
         background: var(--base01) !important;
