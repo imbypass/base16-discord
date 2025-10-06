@@ -32,7 +32,7 @@ jobs:
       - name: Create Pages directory structure
         run: |
           mkdir -p pages
-          cp omarchy-discord.css pages/
+          cp omarchy-discord.theme.css pages/
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
