@@ -89,7 +89,7 @@
     --button-secondary-background: var(--base02) !important;
     --button-secondary-background-disabled: var(--base03) !important;
     --button-secondary-background-hover: var(--base03) !important;
-    --button-secondary-text: var(--base05) !important;
+    --button-secondary-text: var(--color07) !important;
     --card-primary-bg: var(--base02) !important;
     --channel-icon: var(--base04) !important;
     --channels-default: var(--base03) !important;
@@ -120,10 +120,10 @@
     --input-background: var(--base02) !important;
     --input-border: var(--base03) !important;
     --input-placeholder-text: var(--base03) !important;
-    --interactive-active: var(--base05) !important;
-    --interactive-hover: var(--base05) !important;
+    --interactive-active: var(--color07) !important;
+    --interactive-hover: var(--color07) !important;
     --interactive-muted: var(--base03) !important;
-    --interactive-normal: var(--base05) !important;
+    --interactive-normal: var(--color08) !important;
     --mention-background: var(--base02) !important;
     --mention-foreground: var(--base04) !important;
     --menu-item-danger-active-bg: var(--base08) !important;
@@ -173,8 +173,8 @@
     --status-warning-background: var(--base03) !important;
     --status-warning: var(--base09) !important;
     --teal-430: var(--base0C) !important;
-    --text-brand: var(--base06) !important;
-    --text-default: var(--base0F) !important;
+    --text-brand: var(--color05) !important;
+    --text-default: var(--color07) !important;
     --text-feedback-positive: var(--base0B) !important;
     --text-feedback-negative: var(--base08) !important;
     --text-feedback-warning: var(--base09) !important;
@@ -194,7 +194,7 @@
     --white-100: var(--base05) !important;
     --white-200: var(--base05) !important;
     --white-500: var(--base05) !important;
-    --white: var(--base05) !important;
+    --white: var(--base0C) !important;
     --yellow-360: var(--base0A) !important;
     --yellow-300: var(--base0A) !important;
     --__lottieIconColor: var(--base03) !important;
