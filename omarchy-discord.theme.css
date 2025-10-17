@@ -200,6 +200,13 @@
     --__lottieIconColor: var(--base03) !important;
 }
 
+/*--- Default Color Swap ---*/
+path[fill^="currentColor"],
+svg[fill^="currentColor"],
+rect[fill^="currentColor"] {
+    fill: var(--color07) !important;
+}
+
 /*--- Selected Text Recolor ---*/
 ::selection {
     color: var(--base00);
@@ -504,11 +511,4 @@ div.folderIconWrapper__48112 {
     path[fill^="#82838b"] {
         fill: var(--base03) !important;
     }
-}
-
-/*--- Default Color Swap ---*/
-path[fill^="currentColor"],
-svg[fill^="currentColor"],
-rect[fill^="currentColor"] {
-    fill: var(--color07) !important;
 }
