@@ -512,3 +512,13 @@ div.folderIconWrapper__48112 {
         fill: var(--base03) !important;
     }
 }
+
+/* --- Light Theme Fix? --- */
+.theme-light {
+    --base01: color-mix(in srgb, var(--color00) 95%, black) !important;
+    --base02: color-mix(in srgb, var(--color00) 85%, black) !important;
+    --base03: color-mix(in srgb, var(--color00) 80%, black) !important;
+    --base04: color-mix(in srgb, var(--color00) 70%, black) !important;
+    --base06: color-mix(in srgb, var(--color05) 95%, white) !important;
+    --base07: color-mix(in srgb, var(--color05) 90%, white) !important;
+}
