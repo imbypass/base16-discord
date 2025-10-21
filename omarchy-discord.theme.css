@@ -104,6 +104,8 @@
     --checkbox-border-default: var(--base03) !important;
     --control-brand-foreground-new: var(--base0D) !important;
     --control-brand-foreground: var(--base04) !important;
+    --control-text-primary-default: var(--base00) !important;
+    --control-background-primary-default: var(--color05) !important;
     --custom-notice-text: var(--base01) !important;
     --custom-poll-style-vote-percentage: var(--base04) !important;
     --deprecated-text-input-bg: var(--base01) !important;
