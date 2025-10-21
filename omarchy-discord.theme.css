@@ -127,7 +127,7 @@
     --interactive-hover: var(--color07) !important;
     --interactive-muted: var(--base03) !important;
     --interactive-normal: var(--color08) !important;
-    --mention-background: var(--base02) !important;
+    --mention-background: var(--base03) !important;
     --mention-foreground: var(--color07) !important;
     --menu-item-danger-active-bg: var(--base08) !important;
     --menu-item-danger-hover-bg: var(--base08) !important;
