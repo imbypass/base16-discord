@@ -92,6 +92,7 @@
     --button-secondary-background-hover: var(--base03) !important;
     --button-secondary-text: var(--color07) !important;
     --card-primary-bg: var(--base02) !important;
+    --card-background-default: var(--base02) !important;
     --channel-icon: var(--base04) !important;
     --channels-default: var(--base03) !important;
     --channel-text-area-placeholder: var(--base03) !important;
