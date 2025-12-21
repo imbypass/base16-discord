@@ -65,7 +65,7 @@
     --bg-surface-raised: var(--base02) !important;
     --bg-surface-overlay: var(--base00) !important;
     --black: var(--base00) !important;
-    --blurple-50: var(--base0D) !important;
+    --blurple-50: var(--base03) !important;
     --border-faint: var(--base02) !important;
     --border-subtle: var(--border-faint) !important;
     --brand-05a: var(--base01) !important;
@@ -203,6 +203,8 @@
     --yellow-360: var(--base0A) !important;
     --yellow-300: var(--base0A) !important;
     --__lottieIconColor: var(--base03) !important;
+    --card-background-default: var(--base02) !important;
+    --redesign-button-secondary-background: var(--base03) !important;
 }
 
 /*--- Default Color Swap ---*/
