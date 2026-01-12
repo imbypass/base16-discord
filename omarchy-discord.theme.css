@@ -349,8 +349,9 @@ div.folderIconWrapper__48112 {
     color: var(--base01);
 }
 
-_2b1f52e43a8f1c02-numberBadge {
-    color: var(--base05);
+/*--- Number Badge Recolor ---*/
+div[class*="numberBadge"] {
+    color: var(--base05) !important;
 }
 
 /*--- Button Text Recolor ---*/
