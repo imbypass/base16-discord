@@ -55,6 +55,7 @@
     --background-base-tertiary: var(--base00) !important;
     --background-code: var(--base02) !important;
     --background-mod-subtle: var(--base01) !important;
+    --badge-notification-background: var(--base08) !important;
     --bg-base-secondary: var(--base00) !important;
     --bg-base-tertiary: var(--base00) !important;
     --bg-brand: var(--base03) !important;
@@ -161,6 +162,7 @@
     --red-630: var(--base08) !important;
     --red: var(--base08) !important;
     --red-new-22: var(--base08) !important;
+    --red-new-46: var(--base08) !important;
     --redesign-input-control-selected: var(--base0B) !important;
     --scrollbar-auto-thumb: var(--base00) !important;
     --scrollbar-auto-track: transparent;
